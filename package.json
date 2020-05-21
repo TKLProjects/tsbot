@@ -4,7 +4,8 @@
   "description": "TypeScript Discord bot.",
   "main": "index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "tsc && node dist/Bot.js",
+    "compile": "tsc"
   },
   "keywords": [
     "discord"
