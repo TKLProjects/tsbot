@@ -2,6 +2,7 @@ import { ConnectionManager } from "typeorm";
 import { dbName } from "../Config";
 
 import { Warns } from "../models/Warns";
+import { Giveaways } from "../models/Giveaways";
 
 const connectionManager: ConnectionManager = new ConnectionManager();
 connectionManager.create({
@@ -9,7 +10,8 @@ connectionManager.create({
     type: "sqlite",
     database: "./db.sqlite",
     entities: [
-        Warns
+        Warns,
+        Giveaways
     ]
 });
 
