@@ -1,3 +1,4 @@
 export let token: string = "<token>";
 export let prefix: string = "ts!";
 export let owners: string[] = [];
+export let dbName: string = "tsbotDB";
