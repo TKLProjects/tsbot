@@ -15,6 +15,9 @@
   "dependencies": {
     "@types/node": "^14.0.4",
     "discord-akairo": "github:1Computer1/discord-akairo",
-    "discord.js": "github:discordjs/discord.js"
+    "discord.js": "github:discordjs/discord.js",
+    "sqlite": "^4.0.7",
+    "sqlite3": "^4.2.0",
+    "typeorm": "^0.2.25"
   }
 }
